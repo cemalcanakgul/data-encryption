@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "data-encryption": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "APP_ENCRYPTION_SECRET_KEY": "7ed64fb1"
+      }
+    }
+  }
+}

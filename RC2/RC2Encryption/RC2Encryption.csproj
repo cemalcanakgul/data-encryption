@@ -3,14 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>AESEncryption</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\DataEncryption.Abstraction\DataEncryption.Abstraction.csproj" />
-    <ProjectReference Include="..\Shared\DataEncryption.Common\DataEncryption.Common.csproj" />
+    <ProjectReference Include="..\..\Shared\DataEncryption.Abstraction\DataEncryption.Abstraction.csproj" />
+    <ProjectReference Include="..\..\Shared\DataEncryption.Common\DataEncryption.Common.csproj" />
   </ItemGroup>
 
 </Project>
