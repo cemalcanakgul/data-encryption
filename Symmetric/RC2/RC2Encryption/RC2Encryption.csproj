@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\DataEncryption.Abstraction\DataEncryption.Abstraction.csproj" />
-    <ProjectReference Include="..\..\Shared\DataEncryption.Common\DataEncryption.Common.csproj" />
+    <ProjectReference Include="..\..\..\Shared\DataEncryption.Abstraction\DataEncryption.Abstraction.csproj" />
+    <ProjectReference Include="..\..\..\Shared\DataEncryption.Common\DataEncryption.Common.csproj" />
   </ItemGroup>
 
 </Project>
