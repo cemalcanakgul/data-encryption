@@ -15,6 +15,6 @@ namespace DataEncryption.Common
         RC2,
         AES_128,
         AES_192,
-        AES_256
+        AES_256,
     }
 }
