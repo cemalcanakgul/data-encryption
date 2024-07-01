@@ -33,5 +33,20 @@ namespace DataEncryption.Common
                     throw (new NotSupportedException($"Unsupported Cipher Algorithm: {encryptionKeyEncryptor}"));
             }
         }
+
+        public static AsymmetricAlgorithm GetAsymmetricAlgorithm(AsymmetricAlgorithms encryptionKeyEncryptor)
+        {
+            switch (encryptionKeyEncryptor)
+            {
+                case AsymmetricAlgorithms.RSA:
+                    return RSA.Create();
+
+                case AsymmetricAlgorithms.DSA:
+                    return DSA.Create();
+
+                default:
+                    throw (new NotSupportedException($"Unsupported Cipher Algorithm: {encryptionKeyEncryptor}"));
+            }
+        }
     }
 }
